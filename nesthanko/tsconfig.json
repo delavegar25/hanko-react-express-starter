@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "strict": true,
+    "paths": {
+      "@nestjs/config/*": ["node_modules/@nestjs/config/*"]
+    },
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
